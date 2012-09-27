@@ -1,3 +1,6 @@
+if exists('b:current_syntax') && b:current_syntax == 'cabal'
+    finish
+endif
 syntax clear
 
 call vim2hs#cabal#comments()

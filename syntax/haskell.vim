@@ -1,3 +1,7 @@
+if exists('b:current_syntax') && b:current_syntax == 'haskell'
+    finish
+endif
+
 syntax clear
 
 
